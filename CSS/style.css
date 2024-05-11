@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: #c9cfd4;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #030303;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
+/* Estilo para las imágenes de los servicios */
+.card-img-top {
+  max-width: 100%; /* Ancho máximo de las imágenes */
+  height: auto; /* Altura automática para mantener la proporción */
+  object-fit: cover; /* Escala la imagen para que ocupe todo el contenedor sin deformarla */
+  max-height: 200px; /* Altura máxima de las imágenes */
+}
+
+/* Estilo para los contenedores de las imágenes */
+.card {
+  margin-bottom: 20px; /* Separación entre los contenedores de las imágenes */
+  height: 100%; /* Altura máxima del contenedor */
+  max-width: 100%; /* Ancho máximo del contenedor */
+}
+
+/* Estilo para el mapa de Google Maps */
+iframe {
+  width: 100%; /* Ancho máximo del contenedor */
+  height: 60vh; /* Altura relativa al 60% del alto de la ventana */
+  padding: 20px; /* Espaciado interno */
+  margin: 0 auto; /* Margen automático para centrar el mapa */
+  display: block; /* Hacer que el mapa se muestre como un bloque */
+}
+
+/* Estilos para el formulario de contacto con temática ecológica */
+
+/* Estilo para el fondo del formulario */
+body {
+  background-color: #f2f2f2; /* Color de fondo suave */
+}
+
+/* Estilo para el contenedor principal */
+.container {
+  background-color: #fff; /* Fondo blanco */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 30px; /* Espaciado interno */
+}
+
+/* Estilo para el título */
+h2 {
+  color: #4CAF50; /* Color verde */
+}
+
+/* Estilo para las etiquetas de los campos */
+label {
+  color: #4CAF50; /* Color verde */
+}
+
+/* Estilo para los campos de entrada */
+.form-control {
+  border-color: #4CAF50; /* Color del borde verde */
+}
+
+/* Estilo para el botón de enviar */
+.btn-primary {
+  background-color: #4CAF50; /* Color de fondo verde */
+  border-color: #4CAF50; /* Color del borde verde */
+}
+
+/* Estilo para el texto del botón de enviar */
+.btn-primary:hover {
+  background-color: #45a049; /* Color de fondo verde oscuro al pasar el mouse */
+  border-color: #45a049; /* Color del borde verde oscuro al pasar el mouse */
+}
+
+/* Estilo para el botón de enviar al estar activo */
+.btn-primary:active {
+  background-color: #4CAF50; /* Color de fondo verde */
+  border-color: #4CAF50; /* Color del borde verde */
+}
+
+
+
